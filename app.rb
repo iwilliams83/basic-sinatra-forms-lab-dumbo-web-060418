@@ -5,12 +5,8 @@ class App < Sinatra::Base
     erb :newteam
   end
 
-  get '/team' do
-    puts "I'm in the get. My params are #{params}"
-  end
-
   post '/team' do
-  
+
     erb :team
   end
 
