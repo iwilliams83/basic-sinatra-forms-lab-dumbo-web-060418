@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-
+    puts "I'm in the post. My params are #{params}"
     erb :team
   end
 
